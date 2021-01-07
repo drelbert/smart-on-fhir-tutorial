@@ -1,4 +1,4 @@
 # smart-on-fhir-tutorial
 SMART on FHIR developer tutorial
 
-# App Name: GMG Provider-SMART-App<
+# App Name: GMG Provider-SMART-App
