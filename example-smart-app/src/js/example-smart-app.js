@@ -44,6 +44,8 @@
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
+          p.email = patient.email;
+          p.id = patient.id;
           p.gender = gender;
           p.fname = fname;
           p.lname = lname;
@@ -76,6 +78,8 @@
     return {
       fname: {value: ''},
       lname: {value: ''},
+      email: {value: ' '},
+      id: {value: ' '},
       gender: {value: ''},
       birthdate: {value: ''},
       height: {value: ''},
@@ -119,6 +123,8 @@
     $('#loading').hide();
     $('#fname').html(p.fname);
     $('#lname').html(p.lname);
+    $('#email').html(p.email); 
+    $('#id').html(p.id);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
     $('#height').html(p.height);
